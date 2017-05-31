@@ -42,5 +42,5 @@ class BackupMysql(object):
 
 
 if __name__ == '__main__':
-	test = BackupMysql('/usr/bin/mysqldump -uroot -pGuoxinad2017 ','extmail','/home/BackSql/sql/')
+	test = BackupMysql('/usr/bin/mysqldump -uroot -ptest ','test','/home/BackSql/sql/')
 	test.back_up()
